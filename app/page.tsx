@@ -30,7 +30,7 @@ export default function Home() {
       <h1 className="font-extrabold xs:text-lg sm:text-2xl lg:text-3xl xs:text-left lg:text-center">
         Australian Bushfires 2019
       </h1>
-      <p>
+      <p className="xs:text-xs sm:text-sm">
         {`The visualization utilizes FIRMS data from NASA, which provides fire
         intensity at 1 sq km resolution pixels. Higher intensities are mapped to
         red, while lower intensities are mapped to yellow. Australia's borders
@@ -40,7 +40,7 @@ export default function Home() {
         the tragic bushfire event.`}
       </p>
       <div className="flex flex-col gap-3 text-left items-center">
-        <p className="font-bold xs:text-sm lg:text-xl">
+        <p className="font-bold xs:text-sm sm:text-lg lg:text-xl">
           Forest Fire Danger Index data simulation for September 2019
         </p>
         <Image
@@ -60,7 +60,7 @@ export default function Home() {
           unoptimized
         />
       </div>
-      <p>
+      <p className="xs:text-xs sm:text-sm">
         With the help of Earth Engine, we have visualized the trend data for
         different months so we can clearly understand how the fire spread across
         various areas. In September 2019, the bushfire started spreading across
@@ -87,7 +87,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <p>
+        <p className="xs:text-xs sm:text-sm">
           We can see the intense fire spread in December from the visualization
           with so many red dots indicating extremely high-intensity fires. In
           January 2020, the fire was intense in the earlier days in NSW and
