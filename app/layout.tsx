@@ -1,8 +1,5 @@
 import type { Metadata } from "next";
-import { Cousine } from "next/font/google";
 import "./globals.css";
-
-const cousine = Cousine({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
   title: "Australian Bushfire",
@@ -16,7 +13,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${cousine.className}`}>{children}</body>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
+      <body>{children}</body>
     </html>
   );
 }
