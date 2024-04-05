@@ -30,7 +30,7 @@ const Toggle = () => {
 
   return (
     <button
-      className="rounded lg:p-1 bg-white dark:bg-[#171717] shadow-md items-center flex justify-center right-2 top-2 absolute overflow-hidden"
+      className="rounded p-1 bg-white dark:bg-[#171717] shadow-md items-center flex justify-center right-2 top-2 absolute overflow-hidden"
       onClick={() => handleClick()}
     >
       {!!theme && (
@@ -38,7 +38,7 @@ const Toggle = () => {
           key={Math.random()}
           src={theme === "dark" ? light : dark}
           alt="icon"
-          className="xs:size-6 sm:size-7 lg:size-8 animate-toggle"
+          className="xs:size-6 sm:size-7 animate-toggle"
         />
       )}
     </button>

@@ -69,8 +69,8 @@ export default function Home() {
 
       <div className="flex items-center flex-col justify-center gap-3">
         <p className="text-left font-bold xs:text-sm lg:text-xl">
-          Forest Fire Danger Index Simulation for 10th November to 31st December
-          2019
+          Forest Fire Danger Index data simulation for 10th November to 31st
+          December 2019
         </p>
 
         <div className="flex items-center gap-8 lg:flex-row xs:flex-col xs:ml-0 lg:ml-40">
@@ -88,11 +88,11 @@ export default function Home() {
           </div>
         </div>
         <p className="xs:text-xs sm:text-sm">
-          We can see the intense fire spread in December from the visualization
-          with so many red dots indicating extremely high-intensity fires. In
-          January 2020, the fire was intense in the earlier days in NSW and
-          Victoria, but it gradually decreased and became very less by the end
-          of January.
+          As you can see in the above representation, the intense fire spread in
+          December from the visualization with so many red dots indicating
+          extremely high-intensity fires. In January 2020, the fire was intense
+          in the earlier days in NSW and Victoria, but it gradually decreased
+          and became very less by the end of January.
         </p>
       </div>
     </main>
