@@ -38,7 +38,7 @@ const Toggle = () => {
           key={Math.random()}
           src={theme === "dark" ? light : dark}
           alt="icon"
-          className="xs:size-6 sm:size-7 animate-toggle"
+          className="xs:size-5 sm:size-7 animate-toggle"
         />
       )}
     </button>

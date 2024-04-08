@@ -25,7 +25,7 @@ const INFO = [
 
 export default function Home() {
   return (
-    <main className="relative flex min-h-screen flex-col px-10 py-3 gap-3 text-sm dark:text-white text-black dark:bg-black">
+    <main className="relative flex min-h-screen flex-col xs:px-4 md:px-6 lg:px-10 py-3 gap-3 text-sm dark:text-white text-black dark:bg-black">
       <Toggle />
       <h1 className="font-extrabold xs:text-lg sm:text-2xl lg:text-3xl xs:text-left lg:text-center">
         Australian Bushfires 2019
